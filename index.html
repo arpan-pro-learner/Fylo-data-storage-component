@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="bg_img">
+      <div class="company_details">
+        <img class="company-logo iteam-1" src="logo.svg" alt="company logo" />
+        <img
+          class="company-logo iteam-2"
+          src="icon-document.svg"
+          alt="icon-document"
+        />
+        <img
+          class="company-logo iteam-3"
+          src="icon-folder.svg"
+          alt="icon-folder"
+        />
+        <img
+          class="company-logo iteam-4"
+          src="icon-upload.svg"
+          alt="icon-upload"
+        />
+      </div>
+      <div class="loding_bar">
+        <p class="Data_used">
+          You’ve used <strong style="font-weight: 700;">815 GB </strong> of your
+          storage
+        </p>
+        <br />
+        <label id="Data_left">
+          <strong style="font-size: 2rem; font-weight: bold;">185 </strong> GB
+          Left</label
+        >
+        <!-- <progress id="file" value="80" max="100"> 32% </progress> -->
+        <div class="progress_bar">
+          <span style="width: 70%;"></span>
+          <div class="css_ball"></div>
+        </div>
+        <div class="data_min">0 GB</div>
+        <div class="data_max">1000 GB</div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded with ❤️ by
+      <a href="https://github.com/arpan-pro-learner " target="_blank"> Arpan </a
+      >.
+    </div>
+  </body>
+</html>
